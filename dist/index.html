@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Gulp starter V3</title>
+  <meta name="description" lang="ru" content="Описание сайта">
+
+  <!-- Разные метатеги -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Предзагрузка шрифтов -->
+<link rel="preload" href="fonts/GothamPro.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/GothamPro-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/GothamPro-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/GothamPro-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Фавиконка -->
+
+<!-- SEO и отображение ссылки в соц. сетях -->
+<!-- <meta property="og:locale" content="ru_RU">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:site_name" content="">
+<meta property="og:url" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image:src" content=""> -->
+
+<!-- Подключение стилей -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Предзагрузка Гугл карт -->
+<!-- <link rel="preconnect" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4018799759515!2d37.59706970147697!3d48.850546522813026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40df9b278acf10c7%3A0x6df4ea59608755a2!2z0YPQuy4g0JHQsNC90LrQvtCy0YHQutCw0Y8sIDk1LCDQodC70LDQstGP0L3RgdC6LCDQlNC-0L3QtdGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4NDEyMg!5e0!3m2!1sru!2sua!4v1603604697125!5m2!1sru!2sua" crossorigin=""> -->
+
+<!-- Подключений скриптов -->
+<script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="wrapper" data-overlay="false">
+    <header class="header">
+  <div class="container">
+    <div class="header__wrapper">
+      <div class="logo">
+  <a href="#" aria-label="Перейти на главную страницу">
+    <img src="img/logo.svg" width="" height="" loading="lazy" alt="" />
+  </a>
+  <!-- <a href="#" aria-label="Go to main page">
+      <img src="" width="" height="" loading="lazy" alt="" />
+  </a> -->
+</div>
+
+      <button class="burger btn-reset" data-burger aria-label="Открыть меню" aria-expanded="false">
+  <span></span>
+</button>
+<!-- <button class="burger btn-reset" data-burger aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+      </button> -->
+
+      <nav class="menu" data-menu>
+  <ul class="menu__list list-reset">
+    <li class="menu__item">
+      <div class="menu__burger-wrap">
+        <button class="menu__burger btn-reset"><span></span></button>
+      </div>
+      <a href="#" class="menu__link" data-menu-item>Услуги</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link" data-menu-item>О клинике</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link" data-menu-item>Новости</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link" data-menu-item>Отзывы</a>
+    </li>
+    <li class="menu__item">
+      <a href="#" class="menu__link" data-menu-item>Контакты</a>
+    </li>
+  </ul>
+</nav>
+
+      <div class="header__geo">
+        <a href="#">
+            <img width="40" height="40" loading="lazy" src="img/geo.svg" alt="Иконка геопозиции">
+        </a>
+    </div>
+    <div class="header__call">
+      <a href="#">
+          Заказать<br> звонок
+      </a>
+  </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+  <div class="hero__wrapper">
+    <section class="first">
+        <div class="swiper first__slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="first__bg">
+                        <img src="img/first/first-bg.jpg" aria-hidden="true" loading="lazy" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="first__inner">
+                            <h2 class="first__title">Продающий заголовок</h2>
+                            <div class="first__subtitle">При создании генератора мы использовали небезизвестный универсальный код речей.</div>
+                            <div class="first__buttons">
+                                <button class="first__btn-record btn__record btn-reset">
+                                    Записаться
+                                </button>
+                                <button class="first__btn-consalt btn-reset">
+                                    Консультация
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="first__bg">
+                        <img src="img/first/first-bg.jpg" aria-hidden="true" loading="lazy" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="first__inner">
+                            <h2 class="first__title">Продающий заголовок</h2>
+                            <div class="first__subtitle">При создании генератора мы использовали небезизвестный универсальный код речей.</div>
+                            <div class="first__buttons">
+                                <button class="first__btn-record btn__record btn-reset">
+                                    Записаться
+                                </button>
+                                <button class="first__btn-consalt btn-reset">
+                                    Консультация
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="first__bg">
+                        <img src="img/first/first-bg.jpg" aria-hidden="true" loading="lazy" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="first__inner">
+                            <h2 class="first__title">Продающий заголовок</h2>
+                            <div class="first__subtitle">При создании генератора мы использовали небезизвестный универсальный код речей.</div>
+                            <div class="first__buttons">
+                                <button class="first__btn-record btn__record btn-reset">
+                                    Записаться
+                                </button>
+                                <button class="first__btn-consalt btn-reset">
+                                    Консультация
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="first__pagination"></div>
+        </div>
+    </section>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__wrapper">
+      <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__services">
+                    <h3 class="footer__services-title">Услуги стоматологии</h3>
+                    <div class="footer__services-items">
+                        <ul class="footer__col">
+                            <li class="footer__services-item"><a href="#">Консультация стоматолога</a></li>
+                            <li class="footer__services-item"><a href="#">Рентгендиа-гностика</a></li>
+                            <li class="footer__services-item"><a href="#">Лечение зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Отбеливание зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Детская стоматология</a></li>
+                            <li class="footer__services-item"><a href="#">Паро-донтология</a></li>
+                            <li class="footer__services-item"><a href="#">Гигиеническая чистка зубов</a></li>
+
+                            <li class="footer__services-item"><a href="#">Хирурия</a></li>
+                            <li class="footer__services-item"><a href="#">Имплантация</a></li>
+                            <li class="footer__services-item"><a href="#">Протезирование зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Микропротезирование зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Ортодонтические услуги</a></li>
+                            <li class="footer__services-item"><a href="#">Анестизия</a></li>
+                        </ul>
+                        <!-- <ul class="footer__col">
+                            <li class="footer__services-item"><a href="#">Хирурия</a></li>
+                            <li class="footer__services-item"><a href="#">Имплантация</a></li>
+                            <li class="footer__services-item"><a href="#">Протезирование зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Микропротезирование зубов</a></li>
+                            <li class="footer__services-item"><a href="#">Ортодонтические услуги</a></li>
+                            <li class="footer__services-item"><a href="#">Анестизия</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="footer__top-wrap">
+                    <div class="footer__pacient">
+                        <h3 class="footer__pacient-title">Пациентам</h3>
+                        <ul class="footer__pacient-items">
+                            <li class="footer__pacient-item"><a href="#">О клинике</a></li>
+                            <li class="footer__pacient-item"><a href="#">Специалисты</a></li>
+                            <li class="footer__pacient-item"><a href="#">Врачи</a></li>
+                            <li class="footer__pacient-item"><a href="#">Цены</a></li>
+                            <li class="footer__pacient-item"><a href="#">Акции</a></li>
+                            <li class="footer__pacient-item"><a href="#">Новости</a></li>
+                            <li class="footer__pacient-item"><a href="#">Отзывы</a></li>
+                            <li class="footer__pacient-item"><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__allways">
+                        <h3 class="footer__allways-title">Всегда с вами</h3>
+                        <div class="footer__allways-inn">
+                            <p class="footer__allways-text">Добро пожаловать в наши группы в соцсетях:</p>
+                            <ul class="footer__allways-soc">
+                                <li class="footer__soc-link">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="assets/img/sprite.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__soc-link">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="assets/img/sprite.svg#fb"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__soc-link">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="assets/img/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer__soc-link">
+                                    <a href="#">
+                                        <svg>
+                                            <use xlink:href="assets/img/sprite.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a class="footer__help-link" href="#">Написать руководству</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bot-content">
+                    <p>2021 © Все права защищены.</p>
+                    <a href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
