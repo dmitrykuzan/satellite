@@ -8,3 +8,26 @@
   height: 1px;
   clip: rect(0 0 0 0);
 }
+
+.main__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  min-width: 23rem;
+  border-radius: 10px;
+  color: var(--clr-default-600);
+  font-weight: 500;
+  background: linear-gradient(109.45deg, #FFCB6C 22.4%, #E2A433 77.68%);
+  transition: background, box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0px 15px 35px rgba(226, 164, 51, 0.2);
+    transition: background, box-shadow 0.3s;
+  }
+}
+
+.descr {
+  line-height: 155%;
+}
