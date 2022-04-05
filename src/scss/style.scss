@@ -22,7 +22,7 @@ $containerWidth: 120rem;
 
 :root {
   // base
-  --font-family: "Gotham Pro", sans-serif;
+  --font-family: "Roboto", sans-serif;
   --font-weight: 400;
   --content-width: 117rem;
   --container-offset: 1.5rem;
@@ -30,11 +30,9 @@ $containerWidth: 120rem;
   --transition: 0.3s;
 
   // colors
-  --clr-default-100: #fff;
-  --clr-default-400: #1B273F;
-  --clr-default-900: #000;
-  --blue-primary-400:#1C6AE3;
-  --blue-primary-600: #0E57CA;
+  --clr-default-100: rgba(255, 255, 255, 0.85);
+  --clr-primary-400: #170E1C;
+  --clr-primary-500: #221728;
 }
 
 // </ПЕРЕМЕННЫЕ>==============================================================
@@ -42,8 +40,9 @@ $containerWidth: 120rem;
 // <ОБОЛОЧКИ>================================================================
 body {
   font-size: 1.6rem;
-  color: var(--clr-default-400);
-  font-weight: var(--font-weight);
+  color: var(--clr-default-100);
+  background-color: var(--clr-primary-400);
+
   &.lock {
     position: fixed;
     left: 0;
@@ -102,10 +101,10 @@ main {
 
 /* stylelint-disable no-invalid-position-at-import-rule */
 
-// Libs
-@import "./libs/swiper.scss";
+// UI
+@import "./ui";
 
-// Libs
+// UI
 
 // Components - UI
 @import "./components/ui/menu";

@@ -40,61 +40,16 @@ img {
   object-fit: cover;
 }
 
-.btn-reset {
+button {
   border: none;
-  background: transparent;
+  color: currentcolor;
+  background-color: transparent;
   cursor: pointer;
 }
 
-.btn__record {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: var(--blue-primary-600);
-  transition: background-color 0.3s;
-
-  &::before {
-    content: "";
-    position: absolute;
-    right: 2rem;
-    z-index: 1;
-    width: 2rem;
-    height: 2rem;
-    background-image: url(../img/first/pencil.svg);
-    background-position: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 6rem;
-    height: 100%;
-    background-color: #1c6ae3;
-    transform: translateY(-50%);
-    transition: background-color .3s;
-  }
-  &:hover::after {
-    background-color: var(--blue-primary-600);
-    transition: background-color 0.3s;
-  }
-  &:hover {
-    background-color: var(--blue-primary-400);
-    transition: background-color 0.3s;
-  }
-}
-
-.list-reset {
+ul,
+ol {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .input-reset {
