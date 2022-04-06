@@ -31,6 +31,7 @@ $containerWidth: 120rem;
 
   // colors
   --clr-default-100: rgba(255, 255, 255, 0.7);
+  --clr-default-400: rgba(255, 255, 255, 0.11);
   --clr-default-600: #1F1F20;
   --clr-primary-400: #170E1C;
   --clr-primary-500: #221728;
@@ -123,6 +124,7 @@ main {
 
 // Components - Pages
 @import "./components/indexPage/hero";
+@import "./components/indexPage/general";
 
 // Components - Pages
 
