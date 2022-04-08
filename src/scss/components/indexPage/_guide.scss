@@ -1,0 +1,30 @@
+.guide {
+  padding-top: 15rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__title {
+    padding-bottom: 4rem;
+  }
+
+  &__text-wrap {
+    p {
+      line-height: 155%;
+
+      a {
+        text-decoration: underline;
+        color: #fff;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 1.2rem;
+      }
+    }
+  }
+}

@@ -32,10 +32,13 @@ $containerWidth: 120rem;
   // colors
   --clr-default-100: rgba(255, 255, 255, 0.7);
   --clr-default-400: rgba(255, 255, 255, 0.11);
-  --clr-default-600: #1F1F20;
-  --clr-primary-400: #170E1C;
-  --clr-primary-500: #221728;
-  --clr-primary-600: #06050A;;
+  --clr-primary-400: #342840;
+  --clr-primary-600: #1F1F20;
+  --clr-primary-700: #170E1C;
+  --clr-primary-800: #221728;
+  --clr-primary-900: #06050A;
+  --clr-primary-btn: linear-gradient(109.45deg, #FFCB6C 22.4%, #E2A433 77.68%);
+  --clr-primary-btn-hover: 0px 15px 35px rgba(226, 164, 51, 0.2);
 }
 
 // </ПЕРЕМЕННЫЕ>==============================================================
@@ -44,7 +47,7 @@ $containerWidth: 120rem;
 body {
   font-size: 1.6rem;
   color: var(--clr-default-100);
-  background-color: var(--clr-primary-400);
+  background-color: var(--clr-primary-700);
 
   &.lock {
     position: fixed;
@@ -125,6 +128,13 @@ main {
 // Components - Pages
 @import "./components/indexPage/hero";
 @import "./components/indexPage/general";
+@import "./components/indexPage/info";
+@import "./components/indexPage/benefits";
+@import "./components/indexPage/register";
+@import "./components/indexPage/specification";
+@import "./components/indexPage/guide";
+@import "./components/indexPage/mobile";
+@import "./components/indexPage/download";
 
 // Components - Pages
 

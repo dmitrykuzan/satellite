@@ -17,15 +17,22 @@
   padding-bottom: 1.5rem;
   min-width: 23rem;
   border-radius: 10px;
-  color: var(--clr-default-600);
+  color: var(--clr-primary-600);
   font-weight: 500;
-  background: linear-gradient(109.45deg, #FFCB6C 22.4%, #E2A433 77.68%);
+  background: var(--clr-primary-btn);
   transition: background, box-shadow 0.3s;
 
   &:hover {
     box-shadow: 0px 15px 35px rgba(226, 164, 51, 0.2);
     transition: background, box-shadow 0.3s;
   }
+}
+
+.title {
+  font-weight: 600;
+  font-size: fluid-font(3.6rem, 2.4rem);
+  line-height: 155%;
+  color: #fff;
 }
 
 .descr {
