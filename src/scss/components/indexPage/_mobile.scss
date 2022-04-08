@@ -1,0 +1,7 @@
+.mobile {
+  &__img {
+    &::before {
+      display: none;
+    }
+  }
+}

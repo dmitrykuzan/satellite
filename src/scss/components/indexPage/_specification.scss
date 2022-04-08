@@ -1,0 +1,32 @@
+.specification {
+  &__wrapper {
+    @media (max-width: em(992)) {
+      flex-direction: column;
+      align-items: inherit;
+    }
+  }
+
+  &__table-scroll {
+    overflow: hidden;
+
+    @media (max-width: em(992)) {
+      margin-top: 3rem;
+    }
+  }
+
+  &__table {
+    min-width: initial;
+  }
+
+  &__text {
+    max-width: 47rem;
+
+    @media (max-width: em(992)) {
+      max-width: initial;
+    }
+  }
+
+  &__item {
+    grid-template-columns: 30% 65%;
+  }
+}

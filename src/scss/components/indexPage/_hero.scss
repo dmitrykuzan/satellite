@@ -1,5 +1,5 @@
 .hero {
-  background-color: var(--clr-primary-600);
+  background-color: var(--clr-primary-900);
 
   &__wrapper {
     display: flex;
@@ -23,10 +23,6 @@
     font-size: fluid-font(4.2rem, 3.2rem);
     line-height: 125%;
     color: #fff;
-  }
-
-  &__descr {
-
   }
 
   &__btn {
