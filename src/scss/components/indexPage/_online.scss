@@ -1,0 +1,30 @@
+.online {
+  padding-top: 17rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__title {
+    padding-bottom: 3rem;
+
+    @media (max-width: em(576)) {
+      padding-bottom: 1.5rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: 5rem;
+    p:not(:last-child) {
+      padding-bottom: 1rem;
+    }
+
+    @media (max-width: em(576)) {
+      margin-bottom: 3rem;
+    }
+  }
+}

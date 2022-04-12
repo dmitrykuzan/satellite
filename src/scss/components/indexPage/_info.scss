@@ -28,6 +28,12 @@
     padding-bottom: 2rem;
   }
 
+  &__descr p {
+    &:not(:last-child) {
+      padding-bottom: 2rem;
+    }
+  }
+
   &__btn {
     margin-top: 5rem;
   }

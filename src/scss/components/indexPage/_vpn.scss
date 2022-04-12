@@ -1,0 +1,27 @@
+.vpn {
+  padding-top: 15rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__title {
+    padding-bottom: 3rem;
+
+    @media (max-width: em(576)) {
+      padding-bottom: 2rem;
+    }
+  }
+
+  &__text p {
+    line-height: 155%;
+
+    &:not(:last-child) {
+      padding-bottom: 1rem;
+    }
+  }
+}
