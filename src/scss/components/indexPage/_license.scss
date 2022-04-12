@@ -1,0 +1,19 @@
+.license {
+  padding-top: 18rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__title {
+    padding-bottom: 2rem;
+  }
+
+  &__descr {
+    padding-bottom: 4rem;
+  }
+}

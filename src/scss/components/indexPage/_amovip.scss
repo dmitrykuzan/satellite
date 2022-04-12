@@ -1,0 +1,6 @@
+.amovip {
+  &__img::before {
+    background-color:rgba(116, 40, 100, 0.7);
+    filter: blur(350px);
+  }
+}

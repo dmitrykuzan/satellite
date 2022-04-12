@@ -1,0 +1,21 @@
+.live {
+  padding-top: 13rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__text {
+    max-width: 53.5rem;
+  }
+
+  &__img::before {
+    background-color: rgba(112, 80, 143, 0.4);
+    filter: blur(350px);
+    transform: translate(-50%, -50%) rotate(15deg);
+  }
+}

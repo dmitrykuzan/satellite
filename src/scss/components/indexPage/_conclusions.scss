@@ -1,0 +1,25 @@
+.conclusions {
+  padding-top: 14rem;
+
+  @media (max-width: em(992)) {
+    padding-top: 6rem;
+  }
+
+  @media (max-width: em(576)) {
+    padding-top: 4rem;
+  }
+
+  &__title {
+    padding-bottom: 2rem;
+  }
+
+  &__text {
+    p:not(:last-child) {
+      padding-bottom: 1.2rem;
+    }
+  }
+
+  &__btn {
+    margin-top: 5rem;
+  }
+}
